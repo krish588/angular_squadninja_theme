@@ -4,7 +4,7 @@ import { IhdashboardcardsComponent } from 'src/app/pages/ihdashboardcards/ihdash
 import { IhprofileComponent } from 'src/app/pages/ihprofile/ihprofile.component';
 
 export const IhDashboardRoutes: Routes = [
-  {path:'ihdashboard',component:IhdashboardcardsComponent},
+  {path:'ihdashboardcards',component:IhdashboardcardsComponent},
   {path:'user-profile',component:IhprofileComponent}
 ];
 

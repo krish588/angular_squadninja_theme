@@ -13,8 +13,6 @@ import { LoginComponent } from './login/login.component';
 import { IhdashboardComponent } from './layouts/ihdashboard/ihdashboard.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { RouterModule } from '@angular/router';
-import { IhdashboardcardsComponent } from './pages/ihdashboardcards/ihdashboardcards.component';
-import { IhprofileComponent } from './pages/ihprofile/ihprofile.component';
 import { RegisterComponent } from './register/register.component';
 
 @NgModule({
@@ -22,8 +20,6 @@ import { RegisterComponent } from './register/register.component';
     AppComponent,
     LoginComponent,
     IhdashboardComponent,
-    IhdashboardcardsComponent,
-    IhprofileComponent,
     RegisterComponent,
   ],
   imports: [

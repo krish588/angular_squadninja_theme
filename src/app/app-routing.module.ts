@@ -17,7 +17,7 @@ const routes: Routes = [
   children: [
     {
      path: '',
-     loadChildren: './layouts/ihdashboard/ihdashboard.module#'
+     loadChildren: './layouts/ihdashboard/ihdashboard.module#IhdashboardModule'
    }
  ]
 },
