@@ -4,27 +4,37 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HomeModule} from './home/home.module';
-import { FooterComponent } from './shared/footer/footer.component';
-import { NavbarComponent } from './shared/navbar/navbar.component';
+
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SectionsComponent } from './sections/sections.component';
 import { LoginComponent } from './login/login.component';
-import { ProfileComponent } from './profile/profile.component';
+
+import { IhdashboardComponent } from './layouts/ihdashboard/ihdashboard.component';
+import { DashboardModule } from './dashboard/dashboard.module';
+import { RouterModule } from '@angular/router';
+import { IhdashboardcardsComponent } from './pages/ihdashboardcards/ihdashboardcards.component';
+import { IhprofileComponent } from './pages/ihprofile/ihprofile.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
-    NavbarComponent,
     LoginComponent,
-    ProfileComponent
+    IhdashboardComponent,
+    IhdashboardcardsComponent,
+    IhprofileComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HomeModule,
     NgbModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DashboardModule,
+    RouterModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
